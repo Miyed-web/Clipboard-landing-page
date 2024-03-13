@@ -1,0 +1,356 @@
+
+:root{
+  --strongCyan:hsl(171, 66%, 44%);
+  --lightBlue:hsl(233, 100%, 69%);
+  --darkGrayishBlue:hsl(210, 10%, 33%);
+  --grayishBlue:hsl(201, 11%, 66%);
+  
+}
+p{
+  font-weight: 400;
+}
+h2,h3{
+  font-weight: 600;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: "Bai Jamjuree", sans-serif;
+}
+
+body{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ min-height: 100vh;
+ background: #fff;
+ 
+}
+
+header {
+  width: 100%;
+  height: 100%;
+  background: url(images/bg-header-mobile.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 100px;
+}
+header img{
+  width: 120px;
+ 
+}
+
+.topSection-ul{
+  display: flex;
+  flex-direction: column
+  ;
+}
+.endSection-ul{
+  display: flex;
+  flex-direction: column
+  ;
+}
+.top-section{
+  position: relative;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 25px;
+ top: -40px;
+ margin-bottom: 55px;
+}
+.top-section h2{
+  font-size: 30px;
+  text-align: center;
+  margin-bottom:20px ;
+  color: var(--darkGrayishBlue);
+}
+.top-section p{
+  text-align: center;
+  font-size:15.8px ;
+  margin-bottom:40px ;
+  line-height: 1.5rem;
+  color: var(--grayishBlue);
+}
+
+.top-section button{
+  padding: 15px ;
+  width: 300px;
+  border-radius: 43px;
+  outline: none;
+  border: none;
+  box-shadow: inset -1px -2px 2px rgba(110,110,110,.6);
+  font-size: 17px;
+  background: var(--strongCyan);
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.mid-section{
+  width: 100vw;
+  padding: 25px;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.mid-section .img3Text img{
+  max-width: 95%;
+  margin-bottom: 50px;
+}.mid-section h2,
+.mid-section .img3Text h2{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom:18px ;
+  color: var(--darkGrayishBlue);
+}
+.mid-section .img3Text{
+  height:100%;
+  width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+.mid-section p,
+.mid-section .img3Text p{
+  text-align: center;
+  font-size:15.8px ;
+  margin-bottom:65px ;
+  line-height: 1.5rem;
+  color: var(--grayishBlue);
+}
+.mid-section .img3Text .text{
+  position: relative;
+}
+.end-section{
+  height: 100%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+ padding: 25px;
+}
+.end-section h2{
+  text-align: center;
+  color:var(--darkGrayishBlue) ;
+ margin-bottom: 20px;
+}
+.end-section p{
+  text-align: center;
+  line-height: 1.5em;
+  color: var(--grayishBlue);
+  margin-bottom: 65px;
+}
+.end-section img{
+  max-width: 100%;
+  
+}
+
+
+.end-section ul li{
+  
+  text-align: center;
+}
+.end-section ul li h3{
+  font-size: 23px;
+  margin-bottom:22px ;
+  color: var(--darkGrayishBlue);
+}
+.end-section ul li img{
+  margin-bottom:46px ;
+}
+.end-section button{
+  padding: 15px ;
+  width: 300px;
+  border-radius: 43px;
+  outline: none;
+  border: none;
+  box-shadow: inset -1px -2px 2px rgba(110,110,110,.6);
+  font-size: 17px;
+  background: var(--strongCyan);
+  margin-bottom: 20px;
+  color: #fff;
+  font-weight: 600;
+  cursor: pointer;
+}
+.end-section .endul{
+  margin-bottom: 100px;
+}
+.end-section .endul li img{
+  width: 110px;
+  margin: 33px;
+  text-align: center;
+}
+footer{
+  width: 100%;
+  padding:45px ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(197,197,197,.1);
+  gap: 30px;
+}
+
+footer .ullist ul{
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+footer .ullist ul li{
+  text-align: center;
+  margin: 15px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--darkGrayishBlue);
+}
+footer ul li:hover{
+  color: var(--strongCyan);
+}
+footer img{
+  max-width: 48px;
+}
+
+footer .social-icons{
+  max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 30px;
+}
+footer .social-icons i{
+  color: var(--darkGrayishBlue);
+  font-size: 25px;
+}
+footer .social-icons i:hover{
+  color: var(--strongCyan);
+  
+}
+@media (min-width:990px){
+  
+
+  header {
+  width: 100%;
+  height: 100%;
+  background: url(images/bg-header-desktop.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  }
+header img{
+  width: 125px;
+}
+  .mid-section{
+    padding: 0px;
+  }
+  .mid-section p:not(.img3Text .text p){
+    margin:0 160px 65px 160px;
+  }
+  .mid-section .img3Text{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: row;
+}
+.top-section{
+  padding:0 27rem;
+}
+
+.top-section button{
+  width: 230px;
+  
+}
+.end-section button{
+  width: 230px;
+  padding: 15px;
+}
+.end-section ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+  text-align: center;
+  padding: 20px;
+}
+.end-section ul li{
+  padding: 30px;
+}
+.mid-section .img3Text .text h2{
+  text-align: left;
+ position: relative;
+ transform: translateX(70px);
+}
+.mid-section .img3Text .text p{
+  text-align: left;
+}
+.mid-section .img3Text .text{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 80px;
+}
+
+.topSection-ul{
+  display: flex;
+  flex-direction: row
+  ;
+  gap: 15px;
+}
+.topSection-ul{
+  display: flex;
+  flex-direction: row
+  ;
+}
+footer
+{
+  display: flex;
+  align-items: center ;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-basis: 40% 45% 15%;
+}
+footer .ullist{
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  gap: 45px;
+  transform: translateX(-100px);
+}footer .ullist ul li{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+footer .ullist ul{
+  display: flex;
+}
+footer img{
+  max-width: 4%;
+  margin-left:120px;
+}
+footer .social-icons{
+  margin-right: 20px;
+}
+}
+
+
+
+@media(min-width:375px){
+  p{
+   margin: 0 70px;
+  }
+}
