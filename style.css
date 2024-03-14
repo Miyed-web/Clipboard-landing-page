@@ -256,6 +256,9 @@ header img{
   .mid-section{
     padding: 0px;
   }
+    .mid-section .midp{
+    margin:0 400px;
+    }
   .mid-section p:not(.img3Text .text p){
     margin:0 160px 65px 160px;
   }
@@ -288,6 +291,9 @@ header img{
 .end-section ul li{
   padding: 30px;
 }
+  .end-section .last-child{
+  margin: 0 370px 25px 370px;
+  }
 .mid-section .img3Text .text h2{
   text-align: left;
  position: relative;
